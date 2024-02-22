@@ -4,7 +4,7 @@ import pandas
 st.set_page_config(layout="wide")
 st.title("The Best Company")
 
-# fake test for "description" of company
+# fake text for "description" of company
 content = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra dictum ligula, 
 vestibulum finibus augue finibus vel. Nulla facilisi. Curabitur sagittis condimentum mi, 
