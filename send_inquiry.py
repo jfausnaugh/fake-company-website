@@ -2,7 +2,14 @@ import smtplib
 import ssl
 import os
 
+
 def send_inquiry(message):
+    """
+    Receives a message from the contact page and sends an email when user
+    hits submit.
+    :param message:
+    :return:
+    """
     host = "smtp.gmail.com"
     port = 465
 
